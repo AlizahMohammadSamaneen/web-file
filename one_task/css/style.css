@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.default_width {
+    width: 320px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: arial;
+}
+
+/* ***********************************************
+                    header part 
+************************************************* */
+
+#headerpart {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header_wreep {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.header_one {}
+
+.header_heading {
+    margin-bottom: 5px;
+}
+
+.header_menu {
+    margin: 5px 0 20px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-top: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header_two {
+    margin-top: 30px;
+}
+
+.header_two_img_part {
+    margin-bottom: 10px;
+}
+
+.header_two_img_part img {
+    width: 70%
+}
+
+.header_two_paragraph_part {
+    margin-top: 20px;
+}
+
+.right {
+    display: block;
+}
+
+.footer_right_menu {
+    display: none;
+}
+
+/* ***********************************************
+                    portfolio part 
+************************************************* */
+
+#portfolio_section {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.port_wrepp {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.port_heading {
+    margin-bottom: 30px;
+}
+
+.port_part {
+    margin: 40px auto;
+}
+
+.port_img img {
+    width: 100%;
+    margin: 10 auto;
+}
+
+.port_header {
+    margin: 20px 0;
+}
+
+.port_content {
+    margin: 0 auto;
+}
+
+/* ***********************************************
+                    contact part 
+************************************************* */
+
+#contact_section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact_part {
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 50px;
+}
+
+.contact_header {
+    margin: 10px 0;
+}
+
+.contact_content {
+    margin-bottom: 10px;
+}
+
+.contact_phone,
+.contact_email {
+    margin-top: 30px;
+}
+
+.phon,
+.email {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* ***********************************************
+                    footer part 
+************************************************* */
+
+#footer_section {
+    margin-top: 10px;
+}
+
+.footer_part {
+    width: 300px;
+    margin: 20px auto;
+    height: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.footer_part a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.clear1 {
+    clear: both;
+}
+
+/* ***************************** 
+Device = Tablets, Ipads (portrait)
+Screen = B/w 768px to 1024px
+*********************************
+*********************************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .default_width {
+        width: 768px;
+        margin: 0 auto;
+    }
+    /* ***********************************************
+                    header part 
+************************************************* */
+    .header_wreep {
+        width: 745px;
+        margin: 0 auto;
+    }
+    .header_menu ul li {
+        display: inline-block;
+        margin: 25px 0 25px 30px;
+    }
+    .header_two_img_part {
+        float: right;
+        width: 295px;
+        margin-right: 8px;
+    }
+    .header_two_img_part img {
+        width: 100%
+    }
+    .header_two_paragraph_part {
+        width: 420px;
+        text-align: left;
+        margin-left: 8px;
+        margin-top: 0;
+    }
+    .clear {
+        clear: both;
+    }
+    /* ***********************************************
+                    portfolio part 
+************************************************* */
+    .port_wrepp {
+        width: 745px;
+    }
+    .port_part {
+        width: 360px;
+        float: left;
+        margin-left: 7px;
+        margin-right: 2px;
+    }
+    .port_content {
+        width: 345px;
+    }
+    /* ***********************************************
+                    contact part 
+************************************************* */
+    .contact_part {
+        width: 745px;
+    }
+    .contact_content {
+        width: 510px;
+        margin: 30px auto;
+    }
+    /* ***********************************************
+                    footer part 
+************************************************* */
+    .footer_part {
+        width: 745px;
+        margin: 0 auto;
+        height: 100px;
+    }
+    .left {
+        float: left;
+        width: 300px;
+        margin-left: 8px;
+    }
+    .right {
+        display: none;
+    }
+    .footer_right_menu {
+        display: block;
+        float: right;
+        width: 370px;
+        margin-right: 8px;
+    }
+    .footer_right_menu ul li {
+        display: inline-block;
+        margin-left: 35px;
+    }
+    .clear {
+        clear: both;
+    }
+    .clear1 {
+        display: none;
+    }
+}
+
+/* *****************************
+  Device = Laptops, Desktops
+  Screen = B/w 1025px to 1280px
+  ******************************
+**********************************/
+
+@media (min-width: 1025px) {
+    .default_width {
+        width: 1025px;
+        margin: 0 auto;
+    }
+    /* ***********************************************
+                    header part 
+************************************************* */
+    .header_wreep {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .header_heading {
+        float: left;
+        width: 492px;
+        margin-left: 8px;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .header_menu {
+        float: right;
+        width: 492px;
+        margin-right: 8px;
+        text-align: right;
+        margin-top: 0;
+    }
+    .header_menu ul li {
+        display: inline-block;
+        margin: 25px 0 25px 30px;
+    }
+    .header_two_img_part {
+        float: right;
+        width: 400px;
+        margin-right: 8px;
+    }
+    .header_two_img_part img {
+        width: 100%
+    }
+    .header_two_paragraph_part {
+        width: 570px;
+        text-align: left;
+        margin-left: 8px;
+        margin-top: 0;
+    }
+    .clear {
+        clear: both;
+    }
+    /* ***********************************************
+                    portfolio part 
+************************************************* */
+    .port_wrepp {
+        width: 1000px;
+    }
+    .port_part {
+        width: 317px;
+        float: left;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .port_content {
+        width: 300px;
+    }
+    /* ***********************************************
+                    contact part 
+************************************************* */
+    .contact_part {
+        width: 1000px;
+    }
+    .contact_content {
+        width: 510px;
+        margin: 30px auto;
+    }
+    /* ***********************************************
+                    footer part 
+************************************************* */
+    .footer_part {
+        width: 1000px;
+        margin: 30px auto;
+        height: 100px;
+    }
+    .left {
+        float: left;
+        margin-left: 8px;
+    }
+    .right {
+        display: none;
+    }
+    .footer_right_menu {
+        display: block;
+        float: right;
+        margin-right: 8px;
+    }
+    .footer_right_menu ul li {
+        display: inline-block;
+        margin-left: 35px;
+    }
+    .clear {
+        clear: both;
+    }
+    .clear1 {
+        display: none;
+    }
+}
